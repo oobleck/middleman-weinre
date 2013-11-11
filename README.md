@@ -28,16 +28,6 @@ activate :weinre
 ```
 
 ### Config examples
-###### Block config
-```ruby
-activate :weinre do |conf|
-  conf.hostname = 'localhost'
-  conf.port = 8080
-  conf.bin = '/usr/local/bin/weinre'
-end
-```
-
-###### Inline config
 ```erb
 activate :weinre,
   :hostname => "localhost",
