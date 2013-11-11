@@ -50,7 +50,8 @@ activate :weinre,
 You can insert the [Weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/) javascript tag in your template or layout with
 
 ```ruby
-<%= weinre_include_tag %>```
+<%= weinre_include_tag %>
+```
 
 ## Options
 
