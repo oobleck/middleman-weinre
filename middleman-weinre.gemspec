@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-# require "middleman-packager/pkg-info"
 
 Gem::Specification.new do |s|
   s.name        = 'middleman-weinre'
@@ -10,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["spencer at spencer dash rhodes dot com"]
   s.homepage    = "http://github.com/oobleck/middleman-weinre"
   s.summary     = "Auto starts Weinre remote debugger and prvides a simple insert helper to inject the script tag."
-  s.description = s.summary # Middleman::Packager::TAGLINE
+  s.description = s.summary
   s.license     = "MIT"
 
   s.files         = `git ls-files`.split("\n")
